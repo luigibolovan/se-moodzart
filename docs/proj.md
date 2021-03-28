@@ -29,7 +29,7 @@ Clasificarea melodiilor in functie de dispozitia utilizatorului se face pe baza 
 | Mood | Intensity | Timbre | Pitch | Rythm |
 | ----- | ----- | ----- | ----- | ----- |
 | Happy | Medium | Medium | Very high  | Very high |
-| Exuberant | High | Medium | High | | High |
+| Exuberant | High | Medium | High | High |
 | Energetic | Very High | Medium | Medium | High |
 | Frantic | High | Very high | Low | Very high |
 | Sad | Medium | Very low | Very low | Low |
@@ -39,4 +39,42 @@ Clasificarea melodiilor in functie de dispozitia utilizatorului se face pe baza 
 
 Sursa: https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classification/
 
+### Exemple reguli
+**Regula partiala an**
 
+```json
+    {
+        "condition": ["year >= 2000", "year < 2010"],
+        "result": "2000s",
+        "final": false
+    }
+```
+**Regula partiala dispozitie**
+
+```json
+    {
+        "condition": "mood == happy",
+        "result": "happy",
+        "final": false
+    }
+```
+
+**Regula finala**
+
+```json
+    {
+        "condition": ["2000s", "happy"],
+        "result": ["check", "2000s", "happy"],
+        "final": true
+    }
+```
+
+**Fact**
+```json
+    {
+        "age": "2000s",
+        "mood": "energetic",
+        "name": "Bon Jovi - It's My Life",
+        "url": "https://www.youtube.com/watch?v=vx2u5uUu3DE"
+    }
+```
