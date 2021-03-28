@@ -53,7 +53,7 @@ Sursa: https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classifica
 
 ```json
     {
-        "condition": "mood == happy",
+        "condition": "mood == energetic",
         "result": "happy",
         "final": false
     }
@@ -63,8 +63,8 @@ Sursa: https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classifica
 
 ```json
     {
-        "condition": ["2000s", "happy"],
-        "result": ["check", "2000s", "happy"],
+        "condition": ["2000s", "energetic"],
+        "result": ["check", "2000s", "energetic"],
         "final": true
     }
 ```
