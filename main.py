@@ -52,7 +52,7 @@ def search_for_final_conclusions():
     return False
 
 def get_user_input():
-    year = int(input('year = '))
+    year = int(input('year of birth = '))
     print('choose mood:\n1.happy\n2.exuberant\n3.energetic\n4.frantic\n5.sad\n6.depression\n7.calm\n8.contentment')
     int_mood = int(input('selected mood: '))
     if int_mood == 1:
