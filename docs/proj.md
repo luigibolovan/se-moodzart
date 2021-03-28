@@ -23,3 +23,27 @@ Sistemul este alcatuit din
 Bazandu-se pe datele introduse de utilizator, sistemul isi va verifica setul de reguli din fisierul ```rules.json``` si isi va construi lista de concluzii partiale in cazul in care se vor gasi reguli pentru input-ul utilizatorului. In caz contrar, utilizatorul va fi anuntat ca nu a fost gasita nicio regula. \
 Dupa ce au fost gasite concluzii partiale pentru input(an & dispozitie), sistemul va cauta concluziile finale bazandu-se pe cele partiale.
 In cazul in care au fost gasite concluziile finale, se vor cauta in functie de acestea melodiile in fisierul ```facts.json```.
+
+### Clasificarea pe dispozitii a melodiilor
+Clasificarea melodiilor in functie de dispozitia utilizatorului se face pe baza urmatorului tabel:
+| Mood | Intensity | Timbre | Pitch | Rythm |
+| ----- | ----- | ----- | ----- | ----- |
+| Happy | Medium | Medium | Very high  | Very high |
+| ----- | ----- | ----- | ----- | ----- |
+| Exuberant | High | Medium | High | | High |
+| ----- | ----- | ----- | ----- | ----- |
+| Energetic | Very High | Medium | Medium | High |
+| ----- | ----- | ----- | ----- | ----- |
+| Frantic | High | Very high | Low | Very high |
+| ----- | ----- | ----- | ----- | ----- |
+| Sad | Medium | Very low | Very low | Low |
+| ----- | ----- | ----- | ----- | ----- |
+| Depression | Low | Low | Low | Low |
+| ----- | ----- | ----- | ----- | ----- |
+| Calm | Very low | Very low | Medium | Very low |
+| ----- | ----- | ----- | ----- | ----- |
+| Contentment | Low | Low | High | Low |
+
+Sursa: https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classification/
+
+
