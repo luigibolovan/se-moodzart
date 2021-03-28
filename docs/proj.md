@@ -29,19 +29,12 @@ Clasificarea melodiilor in functie de dispozitia utilizatorului se face pe baza 
 | Mood | Intensity | Timbre | Pitch | Rythm |
 | ----- | ----- | ----- | ----- | ----- |
 | Happy | Medium | Medium | Very high  | Very high |
-| ----- | ----- | ----- | ----- | ----- |
 | Exuberant | High | Medium | High | | High |
-| ----- | ----- | ----- | ----- | ----- |
 | Energetic | Very High | Medium | Medium | High |
-| ----- | ----- | ----- | ----- | ----- |
 | Frantic | High | Very high | Low | Very high |
-| ----- | ----- | ----- | ----- | ----- |
 | Sad | Medium | Very low | Very low | Low |
-| ----- | ----- | ----- | ----- | ----- |
 | Depression | Low | Low | Low | Low |
-| ----- | ----- | ----- | ----- | ----- |
 | Calm | Very low | Very low | Medium | Very low |
-| ----- | ----- | ----- | ----- | ----- |
 | Contentment | Low | Low | High | Low |
 
 Sursa: https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classification/
